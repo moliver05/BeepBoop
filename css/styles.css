@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+
+.danger {
+    border-color: #4CAF50;
+    color: orange;
+}
+
+.danger:hover {
+      background-color: #4CAF50;
+      color: white;
+}
+
+#foots {
+  font-size: 12px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+body {
+  background-image:url(https://media.giphy.com/media/dkGhBWE3SyzXW/giphy.gif);
+  background-size: cover;
+
+}
+
+.heads {
+  color: brown;
+}
