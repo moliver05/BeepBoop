@@ -17,6 +17,9 @@ h1 {
   font-size: 12px;
   text-align: center;
   vertical-align: bottom;
+  color: lime;
+  font-family: fantasy;
+  font-weight: bolder;
 }
 
 body {
@@ -43,26 +46,9 @@ body {
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
-}
-
-.button:after {
-    content: "";
-    background: #90EE90;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-}
-
-.button:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
+    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 #outputR {

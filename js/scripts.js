@@ -1,5 +1,5 @@
 // business logic
-var converter = function(num){
+var wordConverter = function(num){
   var result = [];
 
 
@@ -18,13 +18,12 @@ var converter = function(num){
     }
     return result.toString();
   }
-
 // user interface
-$(document).ready(function(){
-  $("#magicform").submit(function(event){
+$(document).ready(function() {
+  $("#magicform").submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($('input#inputOne').val());
-    var userResult = converter(userInput);
+    var userResult = wordConverter(userInput);
     $("#outputR").text(userResult);
     $('#magicform').trigger('reset');
   });
